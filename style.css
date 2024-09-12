@@ -1,0 +1,110 @@
+body{
+    background-color: bisque;
+}
+section img{
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    border-radius: 10px;
+    border: 2.5px solid rgb(248, 248, 248);
+}
+.omelete{
+    text-align: center;
+}
+.first h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+    margin-left: -8px;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+.first h1:hover{
+    color: #63152d;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(233, 201, 201);
+    padding: 15px;
+}
+p{
+    font-size: 16px;
+}
+.page-container {
+    max-width: 500px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+#sub h3{
+    color: #cf8198;
+    margin-left: 8px;
+    font-weight: bolder;
+}
+#sub{
+    background-color: rgb(243, 240, 200);
+    margin: 15px;
+    padding: 2px;
+    border-radius: 8px;
+}
+.ingredients h1{
+    color: #ad4464;
+}
+.ingredients li{
+    padding: 9px;
+}
+.ingredients ul li:last-child{
+    border-bottom: 1px pink solid;
+    padding-bottom: 20px;
+}
+.instructions h1{
+    color: #ad4464;
+}
+ul li::marker{
+    color: #aa395b;
+}
+ol li::marker{
+    color: #aa395b;
+}
+.instructions ol li:last-child{
+    border-bottom: 1px pink solid;
+    padding-bottom: 20px;
+}
+.nutri h1{
+    color: #ad4464;
+}
+.nutri table {
+    width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as bordas */
+    margin-top: 10px; /* Espaçamento superior */
+    font-family: 'Arial', sans-serif; /* Fonte para estilização */
+}
+
+.nutri table tr {
+    text-align: left; /* Alinha o texto do cabeçalho à esquerda */
+    padding: 10px 0; /* Espaçamento interno no cabeçalho */
+    font-size: 24px; /* Tamanho do texto do cabeçalho */
+    color: #5c3d2e; /* Cor do texto do cabeçalho */
+}
+
+.nutri table td {
+    padding: 10px 0; /* Adiciona espaçamento interno às células */
+    border-bottom: 1px solid #ddd; /* Adiciona uma linha fina abaixo de cada célula */
+    font-size: 16px; /* Tamanho do texto nas células */
+    color: #5c3d2e; /* Cor do texto */
+}
+
+.nutri table td:first-child {
+    padding-left: 15px; /* Espaçamento extra à esquerda para o primeiro item */
+}
+
+.nutri table td:last-child {
+    text-align: right; /* Alinha o valor nutricional à direita */
+    font-weight: bold; /* Deixa o valor em negrito */
+}
+
+.nutri table tr:last-child td {
+    border-bottom: none; /* Remove a linha do último item */
+}
